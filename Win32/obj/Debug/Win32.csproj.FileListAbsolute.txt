@@ -1,0 +1,11 @@
+D:\工作文件\源代码\RPADemo\Win32\obj\Debug\Win32.csproj.CoreCompileInputs.cache
+D:\工作文件\源代码\RPADemo\Win32\bin\Debug\Win32.dll
+D:\工作文件\源代码\RPADemo\Win32\bin\Debug\Win32.pdb
+D:\工作文件\源代码\RPADemo\Win32\obj\Debug\Win32.dll
+D:\工作文件\源代码\RPADemo\Win32\obj\Debug\Win32.pdb
+D:\工作文件\源代码\NorthKingRPA\Win32\bin\Debug\Win32.dll
+D:\工作文件\源代码\NorthKingRPA\Win32\bin\Debug\Win32.pdb
+D:\工作文件\源代码\NorthKingRPA\Win32\obj\Debug\Win32.csprojAssemblyReference.cache
+D:\工作文件\源代码\NorthKingRPA\Win32\obj\Debug\Win32.csproj.CoreCompileInputs.cache
+D:\工作文件\源代码\NorthKingRPA\Win32\obj\Debug\Win32.dll
+D:\工作文件\源代码\NorthKingRPA\Win32\obj\Debug\Win32.pdb
