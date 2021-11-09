@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("Win32")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("京北方信息技术股份有限公司")]
 [assembly: AssemblyProduct("Win32")]
-[assembly: AssemblyCopyright("Copyright ©  2020")]
+[assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -19,8 +19,8 @@ using System.Runtime.InteropServices;
 //请将此类型的 ComVisible 特性设置为 true。
 [assembly: ComVisible(false)]
 
-// 如果此项目向 COM 公开，则下列 GUID 用于类型库的 ID
-[assembly: Guid("fabb099b-ed2c-4a0e-bdeb-57b2d5fe80bd")]
+// 如果此脚本向 COM 公开，则下列 GUID 用于类型库的 ID
+[assembly: Guid("1b92863b-1e2c-4cfd-8e1a-8ba24b225bc9")]
 
 // 程序集的版本信息由下列四个值组成: 
 //
