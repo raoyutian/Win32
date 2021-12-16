@@ -1,3 +1,4 @@
+
 # 介绍
 
 Win32API的.NET下封装，包含
@@ -12,12 +13,21 @@ Win32API的.NET下封装，包含
 
 添加net40;net45;net48,暂时移除net6框架
 
+#### v1.2.0
+
+1.添加netcoreapp3.1;net6.0-windows框架支持；
+
+2.增加Shell的API 
+
+3.增加系统硬件信息，CPU、内存使用率
+
 # 安装教程
 
 1. Nuget搜索win32net,安装即可
 
 # 使用说明
 
+```
 Win32命名空间下包含各种常用api，如：win32.User32.GetDesktopWindow()//获取桌面窗口句柄；
 
 Win32.Hooks，命名空间下包含鼠标键盘热荐的钩子相关类。 
@@ -39,11 +49,25 @@ Win32.Input.Wait.Delay(1500);//延迟1500毫秒
  Win32.Input.Keyboard.Type("输入文字1234abc");//模拟输入文字，支持各种语言文字字符
 
 
+SystemInfo systemInfo = new SystemInfo();
+richTextBox1.AppendText("操作系统：" + systemInfo.operatingSystem.Caption + "\n");
+richTextBox1.AppendText("系统ID：" + systemInfo.operatingSystem.SerialNumber + "\n");
+richTextBox1.AppendText("操作系统平台：" + systemInfo.operatingSystem.OSLevel + "\n");
+richTextBox1.AppendText("系统安装时间：" + systemInfo.operatingSystem.InstallDate + "\n");
+richTextBox1.AppendText("系统最近启动时间：" + systemInfo.operatingSystem.LastBootUpTime + "\n");
+richTextBox1.AppendText("系统时间：" + systemInfo.operatingSystem.LocalDateTime + "\n");
+richTextBox1.AppendText("CPU：" + systemInfo.processor.Name + "\n");
+richTextBox1.AppendText("CPU厂商：" + systemInfo.processor.Manufacturer + "\n");
+richTextBox1.AppendText("CPU序列号：" + systemInfo.processor.SerialNumber + "\n");
+richTextBox1.AppendText("物理内存：" + systemInfo.memory.TotalPhysicalMemory + "\n");
+
+
+// CPU使用率，一个回调，1秒一次，可取消
+SystemInfo.CpuUsageOnChanged
+
+// 内存使用率，需要自己间隔一定时间获取，如200毫秒
+ Win32.SystemInfo.MemoryUsage + "%";
 
 
 
-
-
-
-
-
+```
